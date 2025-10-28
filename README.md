@@ -350,6 +350,7 @@ By working through this project, you will learn:
 | **Database** | MySQL 8.0+ |
 | **Languages** | SQL |
 | **Tools** | MySQL Workbench, CSV Export |
+| **Dataset Used** | Banking_Customer_Segmentation_Sample.csv |
 
 ---
 
