@@ -391,4 +391,9 @@ By working through this project, you will learn:
 
 ---
 
+## 📚 Technical Stack
+- Database: MySQL 8.0+
+- Languages: SQL
+- Tools: MySQL Workbench, CSV Export
+
 *This project demonstrates practical SQL skills in customer analytics, combining database design with business strategy to drive measurable banking outcomes.*
