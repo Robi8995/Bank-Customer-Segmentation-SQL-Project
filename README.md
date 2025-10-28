@@ -160,12 +160,13 @@ Classify customers by:
 
 **CSV Files Generated:**
 
-1. **BCS_Customer_Segmentation.csv** - Complete customer list with segment classification
-2. **BCS_Segment_Counts.csv** - Summary of segment distribution (High Value, Mid Tier, Mass Market)
-3. **BCS_HighValue_By_Region.csv** - High-value customer breakdown by region
-4. **BCS_Segment_By_Region.csv** - All segments distributed by geographic region
-5. **BCS_Engagement_Balance_Buckets.csv** - Customer distribution by engagement level and balance
-6. **BCS_Loans_CreditCrossSell.csv** - Relationship matrix between loan and credit card holdings
+1. **Customer Segmentation.csv** - Complete customer list with segment classification
+2. **Segment Summary.csv** - Summary of segment distribution (High Value, Mid Tier, Mass Market)
+3. **Regional High-Value Customers.csv** - High-value customer breakdown by region
+4. **Geographic Distribution.csv** - All segments distributed by geographic region
+5. **Engagement & Balance Analysis.csv** - Customer distribution by engagement level and balance
+6. **Cross-Sell Analysis (Loans & Credit Cards).csv** - Relationship matrix between loan and credit card holdings
+7. **Account Type Performance.csv** – Comparative analysis of customer income, balance, and transaction behavior across different account types
 
 **Database Files:**
 - `Banking_Customer_Segmentation_Sample.csv` - Raw input data (1,000 customer records)
