@@ -330,47 +330,6 @@ GROUP BY Account_Type
 ORDER BY Avg_Income DESC;
 ```
 
-### Step 5: Export Results
-```sql
--- Export Segment Distribution
-SELECT * INTO OUTFILE '/path/to/BCS_Segment_Counts.csv'
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
-FROM (
-    SELECT 
-        CASE 
-            WHEN Income >= 1000000 AND Balance >= 800000 THEN 'High Value'
-            WHEN Income BETWEEN 500000 AND 999999 THEN 'Mid Tier'
-            ELSE 'Mass Market'
-        END AS Segment,
-        COUNT(*) AS Customer_Count
-    FROM Banking_Customers
-    GROUP BY Segment
-) AS Result;
-
--- Export Regional Analysis
-SELECT * INTO OUTFILE '/path/to/BCS_HighValue_By_Region.csv'
-FIELDS TERMINATED BY ','
-LINES TERMINATED BY '\n'
-FROM (
-    SELECT 
-        Region,
-        COUNT(*) AS HighValue_Count
-    FROM Banking_Customers
-    WHERE Income >= 1000000 AND Balance >= 800000
-    GROUP BY Region
-) AS Result;
-```
-
-**Alternative: Use command line to export**
-```bash
-# Export customer segmentation
-mysql -u username -p Banking_DB < query_segmentation.sql > BCS_Customer_Segmentation.csv
-
-# Export regional analysis
-mysql -u username -p Banking_DB < query_regional.sql > BCS_HighValue_By_Region.csv
-```
-
 ## 🎓 Learning Outcomes
 
 By working through this project, you will learn:
