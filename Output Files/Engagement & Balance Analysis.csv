@@ -1,0 +1,10 @@
+Engagement_Level,Balance_Bucket,Customer_Count,Avg_Income
+"High Engagement","High Balance",138,1423255.31
+"High Engagement","Low Balance",119,1426313.63
+"High Engagement","Medium Balance",120,1406260.22
+"Low Engagement","High Balance",46,1543611.43
+"Low Engagement","Low Balance",64,1509010.43
+"Low Engagement","Medium Balance",63,1412773.43
+"Moderate Engagement","High Balance",144,1378862.81
+"Moderate Engagement","Low Balance",154,1312436.89
+"Moderate Engagement","Medium Balance",152,1316783.31
