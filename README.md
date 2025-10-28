@@ -384,16 +384,20 @@ By working through this project, you will learn:
 
 ---
 
-## 📝 Author
+## 📚 Technical Stack
 
+| Component | Technology |
+|-----------|------------|
+| **Database** | MySQL 8.0+ |
+| **Languages** | SQL |
+| **Tools** | MySQL Workbench, CSV Export |
+
+---
+
+## 📝 Author
 **Robin Jimmichan Pooppally**  
 [LinkedIn](https://www.linkedin.com/in/robin-jimmichan-pooppally-676061291) | [GitHub](https://github.com/Robi8995)
 
 ---
 
-## 📚 Technical Stack
-- Database: MySQL 8.0+
-- Languages: SQL
-- Tools: MySQL Workbench, CSV Export
-
-*This project demonstrates practical SQL skills in customer analytics, combining database design with business strategy to drive measurable banking outcomes.*
+*This project demonstrates practical SQL skills in customer analytics, combining database design with business strategy to drive measurable banking outcomes*
