@@ -14,9 +14,8 @@ A comprehensive SQL-based analysis project for segmenting banking customers base
 3. [Key Analysis Steps](#-key-analysis-steps)
 4. [SQL Techniques Used](#-sql-techniques-used)
 5. [Key Findings](#-key-findings)
-6. [Business Impact](#-business-impact)
-7. [Output Files](#-output-files)
-8. [How to Use](#-how-to-use)
+6. [Output Files](#-output-files)
+7. [How to Use](#-how-to-use)
 
 ---
 
@@ -142,17 +141,6 @@ Classify customers by:
 - Average credit cards per customer: 1.6
 - Cross-product ownership indicates customer loyalty
 - Customers with multiple products show 35% higher engagement
-
----
-
-## 💼 Business Impact
-
-✅ **Customer Targeting:** Enable personalized marketing campaigns by segment  
-✅ **Revenue Optimization:** Focus premium services on 30.6% high-value segment  
-✅ **Geographic Strategy:** Prioritize South region for high-value customer initiatives  
-✅ **Risk Management:** Identify and monitor engagement patterns by segment  
-✅ **Cross-Selling:** Target mid-tier customers for product bundling opportunities  
-✅ **Resource Allocation:** Optimize support resources based on customer value  
 
 ---
 
